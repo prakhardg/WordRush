@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent" android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Are you sure?\nProgress will be lost!"
+        android:id="@+id/textView5"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent" android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" android:weightSum="2" android:paddingBottom="10dp"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="60dp" android:src="@drawable/greentick"
+            android:layout_height="60dp"
+            android:id="@+id/tick"
+    android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="60dp" android:src="@drawable/redcross"
+            android:layout_height="60dp"
+            android:id="@+id/cross"
+            android:layout_weight="1"
+            android:layout_alignTop="@+id/tick"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+</RelativeLayout>

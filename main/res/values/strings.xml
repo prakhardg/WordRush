@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Word Rush</string>
+    <string name="detail">Form as many as possible, the 4 letter words from the multiple appearing jumbled letters before the time runs out.
+        Every correct word fetches extra 2 seconds. Wrong word penalises 1 sec!
+    </string>
+    <string name="developer">Developed by: Prakhar Dev Gupta</string>
+
+</resources>
